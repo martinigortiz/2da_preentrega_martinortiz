@@ -1,0 +1,559 @@
+@media screen and (min-width:992px) {
+    section#redes {
+        grid-area: redes;
+        background-color: #222831;
+        color: #EEEEEE;
+        padding: 5%;
+        font-size: 25px;
+
+    }
+
+    section#presentacion {
+        grid-area: presentacion;
+        background-color: #393E46;
+        color: #EEEEEE;
+        padding: 3%;
+    }
+
+    .carousel {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel img {
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+    }
+
+    .contenedor_imagen_carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: #393E46;
+    }
+
+    .margin_1px {
+        margin: 1px;
+    }
+
+    .contenedor_item {
+        max-width: 35%;
+        max-height: auto;
+        background-color: #393E46;
+    }
+
+    .contenedor_texto {
+        text-align: center;
+        background-color: #393E46;
+    }
+
+    .contenedor_texto h1 {
+        font-size: 50px;
+        background-color: #393E46;
+
+    }
+
+    .contenedor_texto h2 {
+        font-size: 45px;
+        background-color: #393E46;
+    }
+
+    .contenedor_texto h3 {
+        font-size: 35px;
+        background-color: #393E46;
+    }
+
+    .contenedor_texto h4 {
+        font-size: 35px;
+        background-color: #393E46;
+    }
+
+    .contenedor_texto p {
+        font-size: 25px;
+        background-color: #393E46;
+    }
+
+    .contenedor_texto ul li {
+        font-size: 25px;
+        list-style-type: none;
+        text-decoration: none;
+        background-color: #393E46;
+    }
+
+
+    section#quienes_somos {
+        grid-area: quienes_somos;
+        background-color: #393E46;
+        color: #EEEEEE;
+    }
+
+    section#cultura {
+        grid-area: cultura;
+        background-color: #393E46;
+        color: #EEEEEE;
+    }
+
+    section#foto_equipo {
+        grid-area: foto_equipo;
+        background-color: #393E46;
+        width: 100%;
+    }
+
+    .centrar_texto {
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+    }
+
+    .contenedor_imagen_equipo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contenedor_imagen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: #393E46;
+        overflow: hidden;
+    }
+
+    .contenedor_item_equipo {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .contenedor_cultura {
+        justify-self: center;
+    }
+
+    .imagen_redes {
+        display: flex;
+        align-items: center;
+    }
+
+    .imagen_redes img {
+        margin: 5px;
+    }
+
+    .imagen_redes p {
+        margin: 5px;
+    }
+
+    .contenedor_texto_cultura {
+        text-align: center;
+        background-color: #393E46;
+    }
+
+    .contenedor_texto_cultura h3 {
+        font-size: 38px;
+        background-color: #393E46;
+        line-height: 1;
+    }
+
+    .contenedor_texto_cultura h4 {
+        font-size: 25px;
+        background-color: #393E46;
+        margin-bottom: 1px;
+        line-height: 1;
+    }
+
+    .contenedor_texto_cultura p {
+        font-size: 20px;
+        background-color: #393E46;
+    }
+
+    .contenedor_texto_cultura ul li {
+        font-size: 20px;
+        list-style-type: none;
+        text-decoration: none;
+        background-color: #393E46;
+    }
+
+    section#flota {
+        grid-area: flota;
+        background-color: #393E46;
+        color: #EEEEEE;
+        padding: 3%;
+    }
+
+    .carousel img {
+        width: 50%;
+        height: auto;
+    }
+
+
+    section#tecnologia_wms {
+        grid-area: tecnologia_wms;
+        background-color: #393E46;
+        color: #EEEEEE;
+        padding: 3%;
+
+    }
+
+    section#form_contacto {
+        grid-area: form_contacto;
+        background-color: #393E46;
+        color: #EEEEEE;
+        padding: 3%;
+
+    }
+
+    section#tecnologia_lgv {
+        grid-area: tecnologia_lgv;
+        background-color: #393E46;
+        color: #EEEEEE;
+        padding: 3%;
+    }
+
+    #ubicacion {
+        padding-top: 55px;
+    }
+
+    .contenedor_imagen_wms {
+        display: block;
+        justify-content: left;
+        align-items: left;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contenedor_item_wms {
+        max-width: 70%;
+        max-height: 70%;
+    }
+
+    .contenedor_imagen_lgv {
+        display: block;
+        justify-content: right;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contenedor_item_lgv {
+        max-width: 70%;
+        max-height: 70%;
+    }
+
+    .fondo_section {
+        background-color: #060607;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+
+    .fotos_marcas_insection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .fotos_marcas_insection img {
+        width: 25%;
+        margin-left: 50 px;
+    }
+
+    #card_fortalezas {
+        font-weight: bold;
+        color: black;
+        display: flex;
+        margin: 20px;
+        font-size: bold;
+        text-align: center;
+
+    }
+
+    #card_centrar {
+        display: flex;
+        align-items: center;
+    }
+
+    .formulario_ancho {
+        width: 100%;
+    }
+
+    .form_postulate {
+        margin-left: 20px;
+    }
+
+    .form_postulate2 {
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+
+    .espacio_card{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #card_equipo {
+        font-weight: bold;
+        color: black;
+        background-color: rgb(214, 208, 208);
+        width: 230px;
+        height: 240px;
+        text-align: center;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width:992px) {
+    .contenedor_imagen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #393E46;
+        height: 50%;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .contenedor_item {
+        max-width: 100%;
+        max-height: auto;
+        background-color: #393E46;
+    }
+
+    .fotos_marcas_insection {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .fotos_marcas_insection img {
+        width: 100%;
+        margin-left: 50 px;
+    }
+
+    section#presentacion {
+        grid-area: presentacion;
+        background-color: #393E46;
+        color: #EEEEEE;
+        text-align: center;
+        padding: 3px;
+        margin: 1px;
+    }
+
+    section#quienes_somos {
+        grid-area: quienes_somos;
+        background-color: #393E46;
+        color: #EEEEEE;
+        text-align: center;
+        padding: 3px;
+    }
+
+    section#cultura {
+        grid-area: cultura;
+        background-color: #393E46;
+        color: #EEEEEE;
+        text-align: center;
+    }
+
+    section#redes {
+        grid-area: redes;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #222831;
+        color: #EEEEEE;
+        padding: 3%
+    }
+
+    .contenedor_texto_cultura ul li {
+        text-align: center;
+        font-size: 20px;
+        list-style-type: none;
+        text-decoration: none;
+        background-color: #393E46;
+    }
+
+    section#foto_equipo {
+        grid-area: foto_equipo;
+        background-color: #393E46;
+        height: auto;
+        width: 100%;
+    }
+
+    .contenedor_imagen_equipo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contenedor_item_equipo {
+        max-width: 80%;
+        max-height: auto;
+    }
+
+    section#flota {
+        grid-area: flota;
+        background-color: #393E46;
+        color: #EEEEEE;
+        padding: 3%;
+
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    .contenedor_texto h1 {
+        font-size: 30px;
+        background-color: #393E46;
+
+    }
+
+    section#form_contacto{
+        grid-area: form_contacto;
+        background-color: #393E46;
+        color: #EEEEEE;
+        padding: 3%;
+
+    }
+
+    section#tecnologia_lgv {
+        grid-area: tecnologia_lgv;
+        background-color: #393E46;
+        color: #EEEEEE;
+        padding: 3%;
+    }
+
+    .contenedor_imagen_wms {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contenedor_imagen_lgv {
+        display: block;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contenedor_item_lgv {
+        max-width: 70%;
+        max-height: 70%;
+    }
+
+    .contenedor_item_wms {
+        max-width: 70%;
+        max-height: 70%;
+    }
+
+    .carousel {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .carousel img {
+        margin: 0 auto;
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .fotos_marcas_insection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .espacio_card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #card_equipo {
+        font-weight: bold;
+        color: black;
+        background-color: rgb(214, 208, 208);
+        width: 130px;
+        height: 150px;
+        text-align: center;
+        margin: 5px;
+    }
+
+    #card_equipo_texto{
+        font-weight: bold;
+        color: black;
+        font-size: 10px;
+    }
+
+    
+    #card_fortalezas {
+        font-weight: bold;
+        color: black;
+        display: flex;
+        margin: 10px;
+        font-size: bold;
+        text-align: center;
+
+    }
+    .mapa {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagen_redes {
+        display: flex;
+        align-items: center;
+    }
+
+    .imagen_redes img {
+        margin: 5px;
+    }
+
+    .imagen_redes p {
+        margin: 5px;
+    }
+
+    .form_postulate {
+        margin-left: 20px;
+    }
+
+    .form_postulate2 {
+        width: 70%;
+        height: auto;
+    }
+
+    
+    section#tecnologia_wms {
+        grid-area: tecnologia_wms;
+        background-color: #393E46;
+        color:red($color: #000000);
+        padding: 2%;
+
+    }
+
+
+}

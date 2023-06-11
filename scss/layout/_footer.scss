@@ -1,0 +1,44 @@
+@media screen and (min-width:992px){
+footer {
+    grid-area: footer;
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 5%;
+    padding-left: 40%;
+    font-size: 20px;
+}
+
+
+footer a{
+    color:white;
+
+}
+}
+
+@media screen and (max-width:992px){
+    
+    section#footer {
+        grid-area: footer;
+        background-color: #222831;
+        color: #EEEEEE;
+        display: flex;
+        justify-items: center;
+    
+    }
+
+    footer {
+        grid-area: footer;
+        background-color: #222831;
+        color: #EEEEEE;
+        padding: 1%;    
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    
+    footer a{
+        color:white;
+    
+    }
+    }
+    

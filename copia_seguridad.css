@@ -1,0 +1,381 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    box-sizing: border-box;
+    margin:0px;
+} 
+
+#grilla{
+display: grid;
+grid-template-areas: 
+    "header nav nav nav"
+    "presentacion presentacion presentacion presentacion"
+    "quienes_somos quienes_somos quienes_somos quienes_somos"
+    "foto_equipo foto_equipo cultura cultura"
+    "footer footer redes redes";
+grid-template-rows: 100px auto auto auto auto;
+grid-template-columns: 10% 40% 25% 25%;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+header {
+    grid-area: header;
+    display: grid;
+    justify-content: left;
+    background-color: #222831;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.logo_header {
+    width: 90px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 20px;
+}
+
+section#redes {
+    grid-area: redes;
+    background-color: #222831;
+    color: #EEEEEE;
+    
+}
+
+section#presentacion {
+    grid-area: presentacion;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel img {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+  }
+  
+
+.contenedor_imagen_carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #393E46;
+}
+
+.margin_1px{
+    margin: 1px;
+}
+
+.contenedor_item {
+    max-width: 35%;
+    max-height: auto;
+    background-color: #393E46;
+}
+
+.contenedor_texto {
+    text-align: center;
+    background-color: #393E46;
+}
+
+.contenedor_texto h1 {
+    font-size: 50px;
+    background-color: #393E46;
+    
+}
+
+.contenedor_texto h2 {
+    font-size: 45px;
+    background-color: #393E46;
+}
+
+.contenedor_texto h3 {
+    font-size: 35px;
+    background-color: #393E46;
+}
+
+.contenedor_texto h4 {
+    font-size: 35px;
+    background-color: #393E46;
+}
+
+.contenedor_texto p {
+    font-size: 25px;
+    background-color: #393E46;
+}
+
+.contenedor_texto ul li {
+    font-size: 25px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #393E46;
+}
+
+
+section#quienes_somos {
+    grid-area: quienes_somos;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+section#cultura {
+    grid-area: cultura;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+section#foto_equipo {
+    grid-area: foto_equipo;
+    background-color: #393E46;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #222831;
+    color: black;
+    margin-right: 0px;
+}
+
+nav div{
+    display: flex;
+    justify-content: end;
+    border: 50%;  
+    color: black;
+    font-weight: bold;
+}
+
+nav a{
+    display: flex;
+    justify-content: end;
+    border: 50%;  
+    color: black;
+    background-color: aqua;
+    margin: 5px;
+    font-weight: bold;
+}
+
+nav div a:hover{
+    background-color: #393E46;
+    color: white;
+    font-weight: bold;
+}
+
+.centrar_texto {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+.contenedor_imagen_equipo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.contenedor_imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #393E46;
+    overflow: hidden;
+}
+
+.contenedor_item_equipo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contenedor_cultura {
+  justify-self: center;
+}
+
+.imagen_redes{
+    display: flex;
+    align-items: center;
+}
+
+.imagen_redes img{
+    margin: 5px;
+}
+
+.imagen_redes p{
+    margin: 5px;
+}
+
+.contenedor_texto_cultura {
+    text-align: center;
+    background-color: #393E46;
+}
+
+.contenedor_texto_cultura h3 {
+    font-size: 38px;
+    background-color: #393E46;
+    line-height: 1;
+}
+
+.contenedor_texto_cultura h4 {
+    font-size: 25px;
+    background-color: #393E46;
+    margin-bottom: 1px;
+    line-height: 1;
+}
+
+.contenedor_texto_cultura p {
+    font-size: 20px;
+    background-color: #393E46;
+}
+
+.contenedor_texto_cultura ul li {
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #393E46;
+}
+
+footer a{
+    color:white;
+}
+
+#grilla2{
+    display: grid;
+    grid-template-areas: 
+        "header nav nav nav"
+        "presentacion presentacion presentacion presentacion"
+        "flota flota flota flota"
+        "tecnologia_wms tecnologia_wms tecnologia_lgv tecnologia_lgv"
+        "footer footer redes redes";
+    grid-template-rows: 100px auto auto auto auto;
+    grid-template-columns: 10% 40% 25% 25%;
+}
+
+section#flota{
+    grid-area: flota;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+.carousel img {
+    width: 50%;
+    height: auto;
+  }
+  
+
+section#tecnologia_wms{
+    grid-area: tecnologia_wms;
+    background-color: #393E46;
+    color: #EEEEEE;
+
+}
+
+section#tecnologia_lgv{
+    grid-area: tecnologia_lgv;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+#ubicacion{
+    padding-top: 55px;
+}
+
+.mapa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.contenedor_imagen_wms {
+    display: block;
+    justify-content: left;
+    align-items: left;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor_item_wms {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.contenedor_imagen_lgv {
+    display: block;
+    justify-content: right;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor_item_lgv {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.fondo_section {
+    background-color: #060607;
+}
+
+section{
+    padding: 10px;
+}
+
+
+.fotos_marcas_insection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+.fotos_marcas_insection img {
+    width: 25%;
+    margin-left: 50 px;
+ }
+
+ #card_equipo{
+    font-weight: bold;
+    color: black;
+    background-color: rgb(214, 208, 208);
+    width: 200px;
+    height: 250px;
+    text-align: center;
+  
+ }
+ #card_fortalezas{
+    font-weight: bold;
+    color: black; 
+    display: flex;
+    margin: 20px;
+    font-size: bold;
+    text-align: center;
+
+ }
+
+ #card_centrar{
+    display: flex;
+    align-items: center;
+ }
+
+ .formulario_ancho{
+    width: 50%;
+ }
+
+ .form_postulate{
+    margin-left:350px;
+ }
+ .form_postulate2{
+    margin-right:400px;
+    margin-top:40px;
+ }
+

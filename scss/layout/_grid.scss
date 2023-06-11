@@ -1,0 +1,88 @@
+@media screen and (min-width:992px) {
+    #grilla {
+        display: grid;
+        grid-template-areas:
+            "header nav nav nav"
+            "presentacion presentacion presentacion presentacion"
+            "quienes_somos quienes_somos quienes_somos quienes_somos"
+            "foto_equipo foto_equipo cultura cultura"
+            "footer footer redes redes";
+        grid-template-rows: 100px auto auto auto auto;
+        grid-template-columns: 10% 40% 25% 25%;
+    }
+
+
+    #grilla2 {
+        display: grid;
+        grid-template-areas:
+            "header nav nav nav"
+            "presentacion presentacion presentacion presentacion"
+            "flota flota flota flota"
+            "tecnologia_wms tecnologia_wms tecnologia_lgv tecnologia_lgv"
+            "footer footer redes redes";
+        grid-template-rows: 100px auto auto auto auto;
+        grid-template-columns: 10% 40% 25% 25%;
+    }
+
+    #grilla3 {
+        display: grid;
+        grid-template-areas:
+            "header nav nav nav"
+            "form_contacto form_contacto tecnologia_lgv tecnologia_lgv"
+            "footer footer redes redes";
+        grid-template-rows: 100px auto auto;
+        grid-template-columns: 10% 40% 25% 25%;
+    }
+
+}
+
+
+
+@media screen and (max-width:992px) {
+
+    #grilla {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "nav"
+            "presentacion"
+            "quienes_somos"
+            "foto_equipo"
+            "cultura"
+            "redes"
+            "footer";
+        grid-template-rows: 100px auto auto auto auto auto auto auto;
+        grid-template-columns: 1fr;
+    }
+
+
+    #grilla2 {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "nav"
+            "presentacion"
+            "flota"
+            "tecnologia_wms"
+            "tecnologia_lgv"
+            "redes"
+            "footer";
+        grid-template-rows: 100px auto auto auto auto auto auto auto;
+        grid-template-columns: 1fr;
+    }
+
+    #grilla3 {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "nav"
+            "form_contacto"
+            "tecnologia_lgv"
+            "redes"
+            "footer";
+        grid-template-rows: 100px auto auto auto auto auto;
+        grid-template-columns: 1fr;
+    }
+
+
+}
