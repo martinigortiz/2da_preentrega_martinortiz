@@ -28,9 +28,10 @@
         display: grid;
         grid-template-areas:
             "header nav nav nav"
-            "form_contacto form_contacto tecnologia_lgv tecnologia_lgv"
+            "form_contacto form_contacto form_contacto form_contacto" 
+            "u_m u_m u_m u_m"
             "footer footer redes redes";
-        grid-template-rows: 100px auto auto;
+        grid-template-rows: 100px auto auto auto;
         grid-template-columns: 10% 40% 25% 25%;
     }
 
@@ -77,7 +78,7 @@
             "header"
             "nav"
             "form_contacto"
-            "tecnologia_lgv"
+            "u_m"
             "redes"
             "footer";
         grid-template-rows: 100px auto auto auto auto auto;

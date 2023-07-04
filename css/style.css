@@ -52,8 +52,8 @@
   }
   #grilla3 {
     display: grid;
-    grid-template-areas: "header nav nav nav" "form_contacto form_contacto tecnologia_lgv tecnologia_lgv" "footer footer redes redes";
-    grid-template-rows: 100px auto auto;
+    grid-template-areas: "header nav nav nav" "form_contacto form_contacto form_contacto form_contacto" "u_m u_m u_m u_m" "footer footer redes redes";
+    grid-template-rows: 100px auto auto auto;
     grid-template-columns: 10% 40% 25% 25%;
   }
 }
@@ -72,7 +72,7 @@
   }
   #grilla3 {
     display: grid;
-    grid-template-areas: "header" "nav" "form_contacto" "tecnologia_lgv" "redes" "footer";
+    grid-template-areas: "header" "nav" "form_contacto" "u_m" "redes" "footer";
     grid-template-rows: 100px auto auto auto auto auto;
     grid-template-columns: 1fr;
   }
@@ -418,6 +418,21 @@
     height: 240px;
     text-align: center;
   }
+  #ubicacion_map2 {
+    width: auto;
+    height: 1000px;
+    text-align: center;
+    color: white;
+  }
+  section#u_m {
+    grid-area: u_m;
+    background-color: #393E46;
+    padding: 3%;
+  }
+  #centrar_texto {
+    text-align: center;
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 992px) {
   .contenedor_imagen {
@@ -618,7 +633,22 @@
   section#tecnologia_wms {
     grid-area: tecnologia_wms;
     background-color: #393E46;
-    color: #EEEEEE;
+    color: white;
+    padding: 2%;
+  }
+  section#u_m {
+    grid-area: u_m;
+    background-color: #393E46;
     padding: 3%;
+  }
+  #ubicacion_map2 {
+    width: auto;
+    height: auto;
+    margin-left: 0%;
+    text-align: center;
+    color: white;
+  }
+  #centrar_texto {
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */

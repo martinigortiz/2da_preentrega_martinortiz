@@ -291,7 +291,7 @@
         margin-top: 40px;
     }
 
-    .espacio_card{
+    .espacio_card {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -306,6 +306,23 @@
         text-align: center;
     }
 
+    #ubicacion_map2 {
+        width: auto;
+        height: 1000px;
+        text-align: center;
+        color:white;
+    }
+
+    section#u_m {
+        grid-area: u_m;
+        background-color: #393E46;
+        padding: 3%;
+    }
+
+    #centrar_texto{
+        text-align: center;
+        font-size: 20px;
+    }
 
 
 }
@@ -347,6 +364,7 @@
         text-align: center;
         padding: 3px;
         margin: 1px;
+
     }
 
     section#quienes_somos {
@@ -419,7 +437,7 @@
 
     }
 
-    section#form_contacto{
+    section#form_contacto {
         grid-area: form_contacto;
         background-color: #393E46;
         color: #EEEEEE;
@@ -483,7 +501,7 @@
         margin-left: 10%;
     }
 
-    .espacio_card{
+    .espacio_card {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -499,13 +517,13 @@
         margin: 5px;
     }
 
-    #card_equipo_texto{
+    #card_equipo_texto {
         font-weight: bold;
         color: black;
         font-size: 10px;
     }
 
-    
+
     #card_fortalezas {
         font-weight: bold;
         color: black;
@@ -515,6 +533,7 @@
         text-align: center;
 
     }
+
     .mapa {
         display: flex;
         align-items: center;
@@ -546,13 +565,31 @@
         height: auto;
     }
 
-    
+
     section#tecnologia_wms {
         grid-area: tecnologia_wms;
         background-color: #393E46;
-        color:red($color: #000000);
+        color: white;
         padding: 2%;
 
+    }
+
+    section#u_m {
+        grid-area: u_m;
+        background-color: #393E46;
+        padding: 3%;
+    }
+
+    #ubicacion_map2 {
+        width: auto;
+        height: auto;
+        margin-left: 0%;
+        text-align: center;
+        color:white;
+    }
+
+    #centrar_texto{
+        text-align: center;
     }
 
 
